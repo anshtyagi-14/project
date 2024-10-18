@@ -1,0 +1,400 @@
+*{
+    padding: 0%;margin: 0%;
+}
+
+html{
+    height: 100%;width:100%;
+}
+
+body,main{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background: linear-gradient(to bottom , rgb(34, 33, 45) ,rgb(119, 120, 132));
+}
+
+header{
+    height: 13%;
+    width: 100%;
+    /* background-color: rgb(34, 37, 41); */
+    background-color: rgb(37, 36, 50);
+    display: flex;
+    position: fixed;
+}
+
+header img{
+    margin-top: 10px;
+    height: 80%;width: 25%;
+}
+
+.searchBar{
+    width: 50%;
+    margin-top: 50px;
+    font-size: xx-large;
+    margin-left: 70px;
+}
+
+.inputForm{
+    height: 50%;
+    width: 70%;
+    color: rgb(39, 44, 50);
+}
+
+input[type="text"] {
+    padding-left: 10px; 
+}
+
+.btn{
+    height: 50%;
+}
+
+.navIcons{
+    color: white;
+    position: relative;
+    right: 50px;
+    padding: 40px;
+}
+
+.navIcons svg{
+    height: 50%;
+}
+.navIcons p{
+    font-size: 25px;
+    text-align:center;
+}
+.s{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(63,68,79);
+    text-align: center;
+}
+.s img{
+    margin-top: 30px;
+}
+.s h2{
+    color:lightblue;
+    margin-top: 20px;
+}
+.s h2:hover{
+    text-decoration: underline;
+    color: rgb(89, 103, 223);
+    cursor:pointer;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom , rgb(119, 120, 132) ,rgb(243, 244, 255));
+}
+#page3{
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(to bottom , rgb(243, 244, 255) ,rgb(252, 252, 252));
+}
+
+#profile svg{
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 70px;
+}
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#video svg{
+    translate: 40px;
+}
+#proff svg{
+    translate: 45px;
+}
+#diy svg{
+    translate: 10px;
+}
+
+#fixed{
+    height: 13%;
+    width: 100%;
+    background-color: white;
+}
+#banner{
+    margin-top: 50px;
+    height: 30%;
+}
+#banner img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+#services{
+    margin-top: 30px;
+    height: 55%;
+}
+#part1{
+    padding-top: 30px;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#part2{
+    margin-top: 30px;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#cards{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+#cards img{
+    width: 500px;
+    height: 500px;
+}
+#cards img:hover{
+    opacity: 0.5;
+}
+#card1{
+    width: 40%;
+    padding-top: 100px;
+    margin-left: 30px;
+    display: flex;
+}
+#card2{
+    width: 40%;
+    padding: 100px;
+    display: flex;
+}
+#card3{
+    width: 40%;
+    padding: 100px;
+    display: flex;
+}
+.head{
+    width: 350px;
+    height: 500px;
+    color: whitesmoke;
+    text-align: center;
+}
+.head h2{
+    margin-top: 40px;
+    font-weight: 800;
+}
+#head3 h3{
+    margin-top: 50px;
+}
+#head2 h3{
+    margin-top: 70px;
+}
+#head1 h3{
+    margin-top: 50px;
+}
+#head1 button{
+    height: 100px;
+    width: 200px;
+    margin-top: 90px;
+}
+#head2 button{
+    height: 100px;
+    width: 200px;
+    margin-top: 110px;
+}
+#head3 button{
+    height: 100px;
+    width: 200px;
+    margin-top: 70px;
+}
+#head2{
+    background-color: rgb(120, 151, 7);
+}
+#head3{
+    background-color: rgb(32, 120, 161);
+}
+#head1{
+    background-color: rgb(99, 10, 32);
+}
+#s2{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#services h1{
+    font-weight: 900;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-size: 50px;
+}
+#services svg{
+    font-weight: 900;
+    margin-left: 80px;
+    margin-top: 190px;
+    font-size: 50px;
+}
+.icon{
+    margin-left: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.icon img{
+    height: 27px;
+    width: 27px;
+}
+.se{
+    margin-left: 70px;
+    border: 2px solid darkgray;
+    border-radius: 5%;
+}
+#imggg{
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+#imgggg{
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    height: 400px;
+}
+#h22{
+    margin-left: 20px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+#setab{
+    display: flex;
+}
+#h222{
+    margin-right: 20px;
+}
+#services p{
+    margin-top: 20px;
+}
+#rup{
+    margin-top: 5px;
+}
+#last{
+    background-color: rgb(30, 29, 40);
+    border-top: 1px solid grey; 
+    height: 175px;  
+    display: flex; 
+    color: white; 
+    font-size: 2.5rem; 
+    align-items: center; 
+
+} 
+#f1{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(30, 29, 40);
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+#f1 h2{
+    font-size: 40px;
+    color: white;
+}
+.d1{
+    font-size: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+} 
+
+li{
+    list-style: none;
+    margin: 25px;
+}
+li:hover{
+    text-decoration: underline;
+}     
+#last img{
+ margin-left: 20%; }  
+
+#first i {
+   padding-left: 20px; 
+   padding-bottom: 20px ;  
+   padding-right: 20px;  
+
+} 
+#first p { 
+    display: flex;  
+    align-items: center;  
+ 
+} 
+#first  {
+    margin-left: 150px;
+}  
+#last{
+    height: 240px;
+} 
+.play-app img {
+   height: 50px; 
+   width: 200px;   
+   padding: 10px; 
+}
+ 
+#rew{
+    height: 500px;
+    background-color: rgb(26, 36, 50);
+} 
+#box1{
+    height: 300px; 
+    width: 400px; 
+} 
+
+.feedback-section {
+    width: 70%;
+    /* max-width: 1600px; */
+    margin-bottom: 50px;
+    margin-left: 450px;
+    padding: 20px;
+    background-color: rgb(243, 244, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    text-align: center; 
+    font-size: 30px; 
+} 
+.feedback-section h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #333; 
+}
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+    font-size: 30px; 
+} 
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    font-size: 30px; 
+}
+.stars {
+    color: #FFD700;
+    margin-bottom: 10px; 
+    font-size: xx-large;
+} 
+.testimonial p {
+    font-size: 16px;
+    color: #666; 
+    font-size: 30px; 
+}
+.testimonial h4 {
+    margin-top: 10px;
+    color: #333; 
+    font-size: 30px; 
+}
+.play-app img{
+    height: 70px;
+    width: 150px;
+}
